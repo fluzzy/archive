@@ -1,5 +1,5 @@
 ---
-name: archive
+name: archive-url
 description: "Archives external documents, blog posts, links, and PDFs into this repository as structured markdown files. Use when the user says \"archive this\", \"save this\", \"아카이빙해\", \"이거 읽고 정리해\", \"이거 추가해\", or provides a URL/document to be preserved. Handles content fetching, summarization, file placement, and README index updates."
 argument-hint: "[url-or-path]"
 ---

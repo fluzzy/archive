@@ -1,7 +1,8 @@
 # Contribution Points
 
 > **Source**: [VS Code Docs — Contribution Points](https://code.visualstudio.com/api/references/contribution-points)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Complete reference for VS Code extension contribution points. Contribution points are static declarations in `package.json` that extend VS Code's UI and behavior.
 

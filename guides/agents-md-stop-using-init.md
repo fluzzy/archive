@@ -1,7 +1,8 @@
 # Stop Using /init for AGENTS.md
 
 > **Source**: [Addy Osmani - Stop Using /init for AGENTS.md](https://addyosmani.com/blog/agents-md/)
-> **Archive Date**: 2026-02-25
+> **Fetched**: 2026-02-25
+> **Archived**: 2026-02-25
 
 Auto-generated AGENTS.md files often backfire. Research shows human-written files improve performance, while LLM-generated ones reduce task success and increase costs.
 

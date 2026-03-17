@@ -1,7 +1,8 @@
 # CI/CD for Extensions
 
 > **Source**: [VS Code Docs — Continuous Integration](https://code.visualstudio.com/api/working-with-extensions/continuous-integration)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to setting up continuous integration and deployment for VS Code extensions. Covers Azure Pipelines, GitHub Actions, testing on multiple platforms, and automated publishing.
 

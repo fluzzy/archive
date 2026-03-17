@@ -3,7 +3,8 @@
 > **Source**: [GitHub](https://github.com/expo/skills) | [Landing Page](https://expo.dev/expo-skills)
 > **Author**: Expo
 > **License**: MIT
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 Official AI agent skills by the Expo team. 10 skills across 3 plugins covering app design, deployment, and SDK upgrades. Each skill provides context-rich instructions for AI coding agents working with Expo projects.
 

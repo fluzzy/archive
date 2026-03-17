@@ -2,7 +2,8 @@
 
 > **Source**: [flowkater.io](https://flowkater.io/posts/2026-02-19-code-reading-era/)
 > **Author**: Tony Cho
-> **Archive Date**: 2026-02-25
+> **Fetched**: 2026-02-25
+> **Archived**: 2026-02-25
 
 AI가 코드 생성을 대신하는 시대에 엔지니어가 집중해야 할 것은 개별 코드 라인이 아니라, 시스템 설계·아키텍처·컨텍스트라는 주장을 연구와 사례 기반으로 정리한 글.
 

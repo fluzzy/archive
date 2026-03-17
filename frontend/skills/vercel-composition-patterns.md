@@ -3,7 +3,8 @@
 > **Source**: [GitHub - vercel-labs/agent-skills/composition-patterns](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns)
 > **Author**: Vercel
 > **License**: MIT
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 Composition patterns for building flexible, maintainable React components. Eliminates boolean prop proliferation by using compound components, lifted state, and dependency-injectable context providers.
 

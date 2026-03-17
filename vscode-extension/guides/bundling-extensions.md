@@ -1,7 +1,8 @@
 # Bundling Extensions
 
 > **Source**: [VS Code Docs — Bundling Extensions](https://code.visualstudio.com/api/working-with-extensions/bundling-extension)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to bundling VS Code extensions with esbuild or webpack. Bundling reduces extension size, speeds up activation, and packages all dependencies into a single file.
 

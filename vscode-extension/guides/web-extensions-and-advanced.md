@@ -1,7 +1,8 @@
 # Web Extensions and Advanced Topics
 
 > **Source**: [VS Code Docs — Web Extensions](https://code.visualstudio.com/api/extension-guides/web-extensions)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to building VS Code web extensions, understanding the Extension Host architecture, Remote Development, and proposed APIs.
 

@@ -1,7 +1,8 @@
 # Activation Events
 
 > **Source**: [VS Code Docs — Activation Events](https://code.visualstudio.com/api/references/activation-events)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Complete reference for all VS Code extension activation events. Activation events control when your extension is loaded into memory — use the most specific event possible to minimize startup impact.
 

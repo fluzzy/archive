@@ -53,6 +53,8 @@ When creating a new category: create the directory, add a `README.md` index, and
 
 Follow the format in `references/archive-format.md`.
 
+**Date fields**: Always include both `Fetched` (date content was retrieved from the source) and `Archived` (date committed to this repo). For same-session archiving, both are today's date.
+
 **File naming**: derive from the content title or topic, kebab-case, descriptive.
 - Good: `agents-md-stop-using-init.md`, `react-server-components-guide.md`
 - Bad: `blog-post.md`, `article1.md`, `temp.md`

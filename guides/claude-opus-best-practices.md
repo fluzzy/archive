@@ -1,7 +1,8 @@
 # Claude Opus 4.6 Best Practices
 
 > **Source**: [Tutorial](https://claude.com/resources/tutorials/get-the-most-from-claude-opus-4-6) | [API Docs](https://platform.claude.com/docs/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices) | [Migration](https://platform.claude.com/docs/en/docs/about-claude/models/migrating-to-claude-4)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Comprehensive guide covering Claude Opus 4.6 behavioral traits, prompting best practices, agentic coding patterns, and migration from previous models. Compiled from the official tutorial, API documentation, and migration guide.
 

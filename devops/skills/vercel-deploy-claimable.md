@@ -3,7 +3,8 @@
 > **Source**: [GitHub](https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable)
 > **Author**: Vercel
 > **License**: MIT
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 A Claude Code skill that deploys web projects to Vercel instantly without authentication. Returns a live preview URL and a claim URL for transferring the deployment to a personal Vercel account.
 

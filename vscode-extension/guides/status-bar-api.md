@@ -1,7 +1,8 @@
 # Status Bar API
 
 > **Source**: [VS Code Docs — Status Bar](https://code.visualstudio.com/api/extension-guides/status-bar) | [Status Bar Sample](https://github.com/microsoft/vscode-extension-samples/tree/main/statusbar-sample)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to creating and managing status bar items in VS Code extensions. Covers creating items, alignment, priority, command binding, and dynamic updates.
 

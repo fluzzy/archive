@@ -1,7 +1,8 @@
 # Workspace and FileSystem
 
 > **Source**: [VS Code Docs — Workspace API](https://code.visualstudio.com/api/references/vscode-api#workspace) | [Workspace Trust](https://code.visualstudio.com/api/extension-guides/workspace-trust)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to working with the VS Code workspace, file system, file watchers, virtual documents, and workspace trust API.
 

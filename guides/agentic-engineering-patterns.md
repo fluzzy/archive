@@ -2,7 +2,8 @@
 
 > **Source**: [Simon Willison's Weblog](https://simonwillison.net/guides/agentic-engineering-patterns/)
 > **Author**: Simon Willison
-> **Archive Date**: 2026-03-05
+> **Fetched**: 2026-03-05
+> **Archived**: 2026-03-05
 
 A comprehensive guide to professional practices for developers working with coding agents like Claude Code. Distinguishes structured "agentic engineering" from casual "vibe coding" by emphasizing methodology applied by experienced engineers to amplify their capabilities.
 

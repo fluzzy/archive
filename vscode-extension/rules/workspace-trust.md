@@ -1,7 +1,8 @@
 # Workspace Trust Rules
 
 > **Source**: [VS Code Docs — Workspace Trust](https://code.visualstudio.com/api/extension-guides/workspace-trust)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Rules for VS Code extension workspace trust integration. Covers trust declarations, restricted mode behavior, and security considerations for untrusted workspaces.
 

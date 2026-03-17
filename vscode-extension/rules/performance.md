@@ -1,7 +1,8 @@
 # Extension Performance Rules
 
 > **Source**: [VS Code Docs — Bundling Extensions](https://code.visualstudio.com/api/working-with-extensions/bundling-extension) | [Extension Anatomy](https://code.visualstudio.com/api/get-started/extension-anatomy)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Performance rules for VS Code extension development. Covers activation strategy, bundling, resource management, and runtime optimization.
 

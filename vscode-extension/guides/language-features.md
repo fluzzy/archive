@@ -1,7 +1,8 @@
 # Programmatic Language Features
 
 > **Source**: [VS Code Docs — Programmatic Language Features](https://code.visualstudio.com/api/language-extensions/programmatic-language-features)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to implementing language features programmatically using VS Code's `vscode.languages` API. Covers all major providers: completion, hover, definition, references, diagnostics, CodeLens, formatting, rename, and more.
 

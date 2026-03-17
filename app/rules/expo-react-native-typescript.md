@@ -1,7 +1,8 @@
 # Expo React Native TypeScript Rules
 
 > **Source**: [cursor.directory](https://cursor.directory/expo-react-native-typescript-cursor-rules) (Krish Kalaria)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Comprehensive coding rules for Expo + React Native + TypeScript projects. Covers code style, performance, navigation, state management, testing, security, and i18n.
 

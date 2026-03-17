@@ -3,7 +3,8 @@
 > **Source**: [GitHub](https://github.com/callstackincubator/agent-skills)
 > **Author**: Callstack
 > **License**: MIT
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Performance optimization skills for React Native apps. 27+ structured skills across JavaScript, Native, and Bundling categories. Based on Callstack's "The Ultimate Guide to React Native Optimization."
 

@@ -1,7 +1,8 @@
 # TreeView API
 
 > **Source**: [VS Code Docs — Tree View API](https://code.visualstudio.com/api/extension-guides/tree-view) | [Tree View Sample](https://github.com/microsoft/vscode-extension-samples/tree/main/tree-view-sample)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to creating custom tree views in the VS Code sidebar. Covers TreeDataProvider, refresh events, view containers, drag and drop, and contextValue for conditional menus.
 

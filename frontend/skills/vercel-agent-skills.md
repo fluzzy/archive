@@ -3,7 +3,8 @@
 > **Source**: [GitHub](https://github.com/vercel-labs/agent-skills/tree/main/skills)
 > **Author**: Vercel
 > **License**: MIT
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 A collection of AI coding agent skills from Vercel Labs. Each skill follows the Agent Skills format — once installed, agents automatically apply them when detecting relevant tasks. 5 skills across frontend, mobile, design, and deployment.
 

@@ -3,7 +3,8 @@
 > **Source**: [GitHub](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills)
 > **Author**: Vercel
 > **License**: MIT
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 Performance optimization skills for React Native & Expo. 13 categories, 35+ rules. Each rule includes incorrect/correct code examples. Designed for AI agents and LLMs to reference when generating or refactoring RN code.
 

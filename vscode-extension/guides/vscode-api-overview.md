@@ -1,7 +1,8 @@
 # VS Code API Overview
 
 > **Source**: [VS Code Docs — Extension Capabilities Overview](https://code.visualstudio.com/api/extension-capabilities/overview)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 High-level overview of the VS Code Extension API. Covers the distinction between declarative and programmatic language features, and the main API namespaces.
 

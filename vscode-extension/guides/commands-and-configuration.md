@@ -1,7 +1,8 @@
 # Commands and Configuration
 
 > **Source**: [VS Code Docs — Extension Guides](https://code.visualstudio.com/api/extension-guides/command) | [Configuration](https://code.visualstudio.com/api/references/contribution-points#contributes.configuration)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to registering commands, executing built-in commands, and working with VS Code's configuration system. Covers registerCommand, executeCommand, configuration schema, getConfiguration read/write/watch patterns.
 

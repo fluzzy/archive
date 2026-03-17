@@ -3,7 +3,8 @@
 > **Source**: [GitHub](https://github.com/Nagi-ovo/gemini-voyager) | [Website](https://voyager.nagi.fun/en) | [Discussion](https://news.hada.io/topic?id=26548)
 > **Author**: Jesse Zhang (@Nagi-ovo)
 > **License**: GPL-3.0
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 All-in-one browser extension that enhances Google Gemini and AI Studio with organization, productivity, and export features.
 

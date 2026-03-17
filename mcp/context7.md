@@ -2,7 +2,8 @@
 
 > **Source**: https://github.com/upstash/context7
 > **Website**: https://context7.com
-> **Archive Date**: 2026-01-19
+> **Fetched**: 2026-01-19
+> **Archived**: 2026-01-19
 
 An MCP server that provides up-to-date code documentation for LLMs and AI code editors.
 

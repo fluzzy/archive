@@ -1,7 +1,8 @@
 # Sequential Thinking MCP Server
 
 > **Source**: https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
-> **Archive Date**: 2026-01-19
+> **Fetched**: 2026-01-19
+> **Archived**: 2026-01-19
 
 An MCP server implementation that provides a tool for dynamic and reflective problem-solving through structured thinking processes.
 

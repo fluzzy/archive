@@ -3,7 +3,8 @@
 > **Source**: [GitHub](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines)
 > **Author**: Vercel
 > **License**: MIT
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 A CLI-based audit skill that reviews UI code against Vercel's Web Interface Guidelines. It fetches the latest ruleset, analyzes specified files, and reports compliance findings in a concise `file:line` format.
 

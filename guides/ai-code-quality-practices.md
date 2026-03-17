@@ -2,7 +2,8 @@
 
 > **Source**: [Article](https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/) | [Discussion](https://news.hada.io/topic?id=26491)
 > **Author**: Mia Heidenstedt
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 12 practices for maintaining code quality when working with AI coding agents. Covers vision, documentation, testing, security marking, and complexity management.
 

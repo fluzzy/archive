@@ -1,7 +1,8 @@
 # Extension UX Guidelines
 
 > **Source**: [VS Code Docs — Extension Capabilities Overview](https://code.visualstudio.com/api/extension-capabilities/overview) | [UX Guidelines](https://code.visualstudio.com/api/ux-guidelines/overview)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 UX rules for VS Code extension development. Covers UI patterns, notifications, theming, accessibility, and user interaction best practices.
 

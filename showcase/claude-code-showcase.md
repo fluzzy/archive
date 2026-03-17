@@ -1,7 +1,8 @@
 # Claude Code Showcase
 
 > **Source**: https://github.com/ChrisWiles/claude-code-showcase
-> **Archive Date**: 2026-01-19
+> **Fetched**: 2026-01-19
+> **Archived**: 2026-01-19
 
 A comprehensive configuration example for making Claude Code agent your team's superpower colleague. Build consistent, systematic development workflows through reusable skills, agents, and hooks.
 

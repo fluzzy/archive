@@ -7,7 +7,8 @@ Every archived document MUST follow this format:
 
 > **Source**: [Source Name](url)
 > **Author**: Author Name (if known)
-> **Archive Date**: YYYY-MM-DD
+> **Fetched**: YYYY-MM-DD
+> **Archived**: YYYY-MM-DD
 
 Brief 1-2 sentence introduction explaining what this document covers.
 
@@ -32,7 +33,7 @@ Use tables, code blocks, and lists for clarity.
 
 - Start with a markdown heading (`# Title`)
 - Include source attribution in blockquote format immediately after the title
-- Include archive date (use today's date)
+- Include `Fetched` date (when content was retrieved) and `Archived` date (when committed to repo) — for same-session archiving, both are today's date
 - Add author if identifiable
 - Use `---` horizontal rules to separate major sections
 - End with a References section linking back to all source material

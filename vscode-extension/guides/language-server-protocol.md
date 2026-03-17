@@ -1,7 +1,8 @@
 # Language Server Protocol
 
 > **Source**: [VS Code Docs — Language Server Extension Guide](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide) | [LSP Sample](https://github.com/microsoft/vscode-extension-samples/tree/main/lsp-sample)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to implementing a Language Server Protocol (LSP) client in VS Code. Covers LSP architecture, LanguageClient setup, server options, transport, and the client-server communication pattern.
 

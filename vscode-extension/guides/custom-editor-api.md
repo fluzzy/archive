@@ -1,7 +1,8 @@
 # Custom Editor API
 
 > **Source**: [VS Code Docs — Custom Editors](https://code.visualstudio.com/api/extension-guides/custom-editors) | [Custom Editor Sample](https://github.com/microsoft/vscode-extension-samples/tree/main/custom-editor-sample)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to creating custom editors in VS Code. Covers CustomTextEditorProvider for text files and CustomReadonlyEditorProvider/CustomEditorProvider for binary files with full edit/undo/save support.
 

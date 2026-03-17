@@ -3,7 +3,8 @@
 > **Source**: https://github.com/eyaltoledano/claude-task-master
 > **Website**: https://www.task-master.dev
 > **Docs**: https://docs.task-master.dev
-> **Archive Date**: 2026-01-19
+> **Fetched**: 2026-01-19
+> **Archived**: 2026-01-19
 
 A task management system for Claude and AI-powered development. Designed to work seamlessly with Cursor AI.
 

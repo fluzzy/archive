@@ -3,7 +3,8 @@
 > **Source**: [OpenAI Developer Blog](https://developers.openai.com/blog/eval-skills/)
 > **Authors**: Dominik Kundel, Gabriel Chua
 > **Published**: 2026-01-22
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 A practical 8-step framework for building systematic, data-driven evaluations (evals) for AI agent skills, using OpenAI Codex as the reference platform. The core message: stop relying on "vibes" and start measuring agent behavior with automated, repeatable tests.
 

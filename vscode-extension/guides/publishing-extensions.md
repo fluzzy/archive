@@ -1,7 +1,8 @@
 # Publishing Extensions
 
 > **Source**: [VS Code Docs — Publishing Extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) | [VSCE](https://github.com/microsoft/vscode-vsce)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to packaging and publishing VS Code extensions to the Visual Studio Marketplace using `vsce`. Covers publisher setup, PAT tokens, packaging, publishing, pre-release, and package.json configuration.
 

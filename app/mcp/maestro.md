@@ -1,7 +1,8 @@
 # Maestro
 
 > **Source**: [GitHub](https://github.com/mobile-dev-inc/Maestro) | [Docs](https://docs.maestro.dev)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 E2E testing framework for mobile and web. YAML-based test flows with built-in flakiness tolerance, AI-powered assertions, and MCP server for AI agent integration.
 

@@ -2,7 +2,8 @@
 
 > **Source**: [Expo Documentation](https://docs.expo.dev/eas/ai/mcp/)
 > **Type**: Remote MCP Server (hosted by Expo)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Official Expo MCP server that connects AI coding assistants to Expo projects. Provides SDK documentation access, package management, build/workflow automation, and local simulator interaction.
 

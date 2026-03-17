@@ -1,7 +1,8 @@
 # Webview Security Rules
 
 > **Source**: [VS Code Docs — Webview API (Security)](https://code.visualstudio.com/api/extension-guides/webview#security)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Security rules for VS Code extension webviews. Covers Content Security Policy, resource loading, message handling, and input sanitization.
 

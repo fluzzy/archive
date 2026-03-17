@@ -2,7 +2,8 @@
 
 > **Source**: https://github.com/modelcontextprotocol/servers
 > **Registry**: https://registry.modelcontextprotocol.io
-> **Archive Date**: 2026-01-19
+> **Fetched**: 2026-01-19
+> **Archived**: 2026-01-19
 
 Reference implementations and community servers for Model Context Protocol (MCP).
 

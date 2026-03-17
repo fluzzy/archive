@@ -1,7 +1,8 @@
 # Extension Anatomy
 
 > **Source**: [VS Code Docs — Extension Anatomy](https://code.visualstudio.com/api/get-started/extension-anatomy)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to the structure and lifecycle of a VS Code extension. Covers the extension manifest (package.json), entry point (extension.ts), activation/deactivation, ExtensionContext, and the Disposable pattern.
 

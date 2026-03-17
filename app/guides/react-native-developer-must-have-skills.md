@@ -2,7 +2,8 @@
 
 > **Source**: [GeeksforGeeks](https://www.geeksforgeeks.org/blogs/must-have-skills-for-react-native-developer/)
 > **Author**: Isha Sharma
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 Overview of 7 essential technical skills every React Native developer needs, from core web fundamentals to performance optimization.
 

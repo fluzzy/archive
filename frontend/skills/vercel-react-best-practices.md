@@ -3,7 +3,8 @@
 > **Source**: [GitHub - vercel-labs/agent-skills/react-best-practices](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices)
 > **Author**: Vercel
 > **License**: MIT
-> **Archive Date**: 2026-02-26
+> **Fetched**: 2026-02-26
+> **Archived**: 2026-02-26
 
 React and Next.js performance optimization guidelines: 57 rules across 8 categories, prioritized by impact for automated refactoring and code generation.
 

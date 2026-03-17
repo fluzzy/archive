@@ -2,7 +2,8 @@
 
 > **Source**: [Woowahan Bros Tech Blog](https://techblog.woowahan.com/24165/)
 > **Author**: Park Jaeyong (박재용)
-> **Archive Date**: 2026-02-27
+> **Fetched**: 2026-02-27
+> **Archived**: 2026-02-27
 
 How Baemin's commerce team introduced a transparent overlay WebView ("Floating WebView") to solve popup-layer conflicts between web and native UI, and the architecture they built to decouple popup components across pages.
 

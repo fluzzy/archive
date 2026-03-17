@@ -1,7 +1,8 @@
 # Testing Extensions
 
 > **Source**: [VS Code Docs — Testing Extensions](https://code.visualstudio.com/api/working-with-extensions/testing-extension)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to testing VS Code extensions. Covers the `@vscode/test-electron` runner, integration test setup, launch.json configuration for debugging tests, and CI considerations.
 

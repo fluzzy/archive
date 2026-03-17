@@ -3,7 +3,8 @@
 > **Source**: [Callstack](https://www.callstack.com/ebooks/the-ultimate-guide-to-react-native-optimization)
 > **Code Examples**: [GitHub](https://github.com/callstack/optimization-best-practices)
 > **Edition**: 2025
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Free ebook covering React Native performance optimization across JavaScript, Native, and Bundling. Updated for 2025 with New Architecture, React Compiler, and Hermes optimizations.
 

@@ -1,7 +1,8 @@
 # Webview API
 
 > **Source**: [VS Code Docs — Webview API](https://code.visualstudio.com/api/extension-guides/webview)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Guide to creating webviews in VS Code extensions. Covers creating webview panels, loading local resources, message passing between extension and webview, state management, and content security policy.
 

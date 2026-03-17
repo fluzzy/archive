@@ -2,7 +2,8 @@
 
 > **Source**: [Toss Tech Blog](https://toss.tech/article/ai-driven-ui-test-automation)
 > **Author**: Jeong Su-ho (QA Manager, Toss Income)
-> **Archive Date**: 2026-02-27
+> **Fetched**: 2026-02-27
+> **Archived**: 2026-02-27
 
 A five-month experiment (July–November 2025) automating UI testing for Toss's complex tax refund service using AI agents as primary development partners, achieving 35 stable E2E test scenarios with one person and three Claude agents.
 

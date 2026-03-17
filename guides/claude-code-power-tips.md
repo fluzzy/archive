@@ -2,7 +2,8 @@
 
 > **Source**: [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips) | [Advent of Claude](https://adocomplete.com/advent-of-claude-2025/)
 > **Authors**: ykdojo (Anthropic hackathon winner), Ado Kukic (Anthropic DevRel)
-> **Archive Date**: 2026-02-10
+> **Fetched**: 2026-02-10
+> **Archived**: 2026-02-10
 
 Compiled 70 tips in 13 parts covering mindset, setup, context management, shortcuts, git workflows, advanced features, and real-world patterns.
 

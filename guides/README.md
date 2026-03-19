@@ -14,3 +14,4 @@ How-to guides and best practices for AI coding agents.
 | [code-reading-era.md](./code-reading-era.md) | AI 시대 엔지니어가 코드 대신 읽어야 할 것 | [flowkater.io](https://flowkater.io/posts/2026-02-19-code-reading-era/) |
 | [eval-agent-skills-systematically.md](./eval-agent-skills-systematically.md) | 8-step framework for systematic agent skill evaluation | [OpenAI](https://developers.openai.com/blog/eval-skills/) |
 | [agentic-engineering-patterns.md](./agentic-engineering-patterns.md) | Agentic engineering patterns: principles, TDD, code understanding, and prompts | [Simon Willison](https://simonwillison.net/guides/agentic-engineering-patterns/) |
+| [clawteam-agent-swarm-intelligence.md](./clawteam-agent-swarm-intelligence.md) | ClawTeam: multi-agent swarm intelligence framework with git worktree isolation | [HKUDS](https://github.com/HKUDS/ClawTeam) |

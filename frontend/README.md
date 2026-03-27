@@ -30,6 +30,7 @@ Resources for frontend development.
 | --- | --- | --- |
 | [floating-webview-popup-decoupling.md](./guides/floating-webview-popup-decoupling.md) | Floating WebView popup decoupling in hybrid web-native apps (Caller/Callee pattern) | [Woowahan Tech Blog](https://techblog.woowahan.com/24165/) |
 | [ai-driven-ui-test-automation.md](./guides/ai-driven-ui-test-automation.md) | AI-driven UI test automation case study (1 person + 3 Claude agents, 35 E2E scenarios) | [Toss Tech](https://toss.tech/article/ai-driven-ui-test-automation) |
+| [toss-frontend-fundamentals-mock-exam-2-review.md](./guides/toss-frontend-fundamentals-mock-exam-2-review.md) | Toss Frontend Fundamentals mock exam 2nd review — code predictability, anti-patterns, refactoring | [정소현](https://velog.io/@alice0751/%ED%86%A0%EC%8A%A4-Frontend-Fundamentals-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-2%ED%9A%8C%EC%B0%A8-%EB%A6%AC%EB%B7%B0) |
 
 ## Showcase
 

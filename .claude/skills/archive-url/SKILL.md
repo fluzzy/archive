@@ -104,6 +104,8 @@ Examples from this repo:
 - Confirm the README index was updated (in the correct section for domain READMEs)
 - Confirm the content follows the archive format template
 
+If verification fails (wrong path, missing README entry, format issues), re-fetch the source content to check for discrepancies, fix the issues, verify again, then commit the fix before proceeding to push.
+
 ### 8. Push
 
 After verifying, push to the remote repository immediately. This is an archive repo where each commit is a standalone addition, so pushing right away is safe and expected.

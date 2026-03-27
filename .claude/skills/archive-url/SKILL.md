@@ -103,3 +103,7 @@ Examples from this repo:
 - Confirm the file was created at the correct path
 - Confirm the README index was updated (in the correct section for domain READMEs)
 - Confirm the content follows the archive format template
+
+### 8. Push
+
+After verifying, push to the remote repository immediately. This is an archive repo where each commit is a standalone addition, so pushing right away is safe and expected.

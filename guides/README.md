@@ -16,3 +16,4 @@ How-to guides and best practices for AI coding agents.
 | [agentic-engineering-patterns.md](./agentic-engineering-patterns.md) | Agentic engineering patterns: principles, TDD, code understanding, and prompts | [Simon Willison](https://simonwillison.net/guides/agentic-engineering-patterns/) |
 | [clawteam-agent-swarm-intelligence.md](./clawteam-agent-swarm-intelligence.md) | ClawTeam: multi-agent swarm intelligence framework with git worktree isolation | [HKUDS](https://github.com/HKUDS/ClawTeam) |
 | [harness-engineering-codex-agent-first.md](./harness-engineering-codex-agent-first.md) | Agent-first engineering: 0 hand-written code, 1M LOC product with Codex agents | [OpenAI](https://openai.com/index/harness-engineering/) |
+| [anatomy-of-claude-folder.md](./anatomy-of-claude-folder.md) | Anatomy of the .claude/ folder: rules, commands, skills, agents, and permissions | [Avi Chawla](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder) |

@@ -42,9 +42,10 @@ Resources not tied to a specific domain.
 | --- | --- |
 | [guides/](./guides/) | How-to guides and best practices |
 | [mcp/](./mcp/) | MCP server documentation |
+| [plugins/](./plugins/) | Third-party Claude Code plugin archives |
 | [rules/](./rules/) | Coding rules and conventions |
 | [showcase/](./showcase/) | Configuration examples |
-| [skills/](./skills/) | Agent skill definitions |
+| [skills/](./skills/) | Agent skill definitions and archives |
 | [cheatsheets/](./cheatsheets/) | Quick references and cheat sheets |
 
 ## Roles

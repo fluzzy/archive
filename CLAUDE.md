@@ -32,9 +32,10 @@ Resources are organized by domain. Each domain shares the same sub-category layo
 
 - `guides/` - How-to guides and best practices
 - `mcp/` - MCP server documentation
+- `plugins/` - Third-party Claude Code plugin archives
 - `rules/` - Coding rules and conventions
 - `showcase/` - Configuration examples
-- `skills/` - Agent skill definitions
+- `skills/` - Agent skill definitions and archives
 
 ## Conventions
 

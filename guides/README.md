@@ -2,6 +2,8 @@
 
 How-to guides and best practices for AI coding agents.
 
+## General
+
 | File | Description | Source |
 | --- | --- | --- |
 | [agents-md.md](./agents-md.md) | How to write AGENTS.md | - |
@@ -19,3 +21,40 @@ How-to guides and best practices for AI coding agents.
 | [anatomy-of-claude-folder.md](./anatomy-of-claude-folder.md) | Anatomy of the .claude/ folder: rules, commands, skills, agents, and permissions | [Avi Chawla](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder) |
 | [productive-with-claude-code.md](./productive-with-claude-code.md) | Productivity with Claude Code: constraint theory, parallel worktrees, and agent management | [Neil Kakkar](https://neilkakkar.com/productive-with-claude-code.html) |
 | [harness-design-long-running-apps.md](./harness-design-long-running-apps.md) | GAN-inspired multi-agent harness for long-running coding and design tasks | [Anthropic](https://www.anthropic.com/engineering/harness-design-long-running-apps) |
+
+## Frontend
+
+| File | Description | Source |
+| --- | --- | --- |
+| [ai-driven-ui-test-automation.md](./frontend/ai-driven-ui-test-automation.md) | AI-driven UI test automation | - |
+| [floating-webview-popup-decoupling.md](./frontend/floating-webview-popup-decoupling.md) | Floating webview popup decoupling | - |
+| [toss-frontend-fundamentals-mock-exam-2-review.md](./frontend/toss-frontend-fundamentals-mock-exam-2-review.md) | Toss frontend fundamentals mock exam review | [Toss](https://toss.tech) |
+
+## App
+
+| File | Description | Source |
+| --- | --- | --- |
+| [callstack-rn-optimization.md](./app/callstack-rn-optimization.md) | Callstack React Native optimization guide | [Callstack](https://github.com/nichenqin/callstack-react-native-agent) |
+| [react-native-developer-must-have-skills.md](./app/react-native-developer-must-have-skills.md) | React Native developer must-have skills | - |
+
+## VS Code Extension
+
+| File | Description | Source |
+| --- | --- | --- |
+| [activation-events.md](./vscode-extension/activation-events.md) | VS Code activation events | [VS Code](https://code.visualstudio.com/api) |
+| [bundling-extensions.md](./vscode-extension/bundling-extensions.md) | Bundling VS Code extensions | [VS Code](https://code.visualstudio.com/api) |
+| [ci-cd.md](./vscode-extension/ci-cd.md) | VS Code extension CI/CD | [VS Code](https://code.visualstudio.com/api) |
+| [commands-and-configuration.md](./vscode-extension/commands-and-configuration.md) | Commands and configuration | [VS Code](https://code.visualstudio.com/api) |
+| [contribution-points.md](./vscode-extension/contribution-points.md) | Contribution points | [VS Code](https://code.visualstudio.com/api) |
+| [custom-editor-api.md](./vscode-extension/custom-editor-api.md) | Custom editor API | [VS Code](https://code.visualstudio.com/api) |
+| [extension-anatomy.md](./vscode-extension/extension-anatomy.md) | Extension anatomy | [VS Code](https://code.visualstudio.com/api) |
+| [language-features.md](./vscode-extension/language-features.md) | Language features | [VS Code](https://code.visualstudio.com/api) |
+| [language-server-protocol.md](./vscode-extension/language-server-protocol.md) | Language Server Protocol | [VS Code](https://code.visualstudio.com/api) |
+| [publishing-extensions.md](./vscode-extension/publishing-extensions.md) | Publishing extensions | [VS Code](https://code.visualstudio.com/api) |
+| [status-bar-api.md](./vscode-extension/status-bar-api.md) | Status bar API | [VS Code](https://code.visualstudio.com/api) |
+| [testing-extensions.md](./vscode-extension/testing-extensions.md) | Testing extensions | [VS Code](https://code.visualstudio.com/api) |
+| [treeview-api.md](./vscode-extension/treeview-api.md) | TreeView API | [VS Code](https://code.visualstudio.com/api) |
+| [vscode-api-overview.md](./vscode-extension/vscode-api-overview.md) | VS Code API overview | [VS Code](https://code.visualstudio.com/api) |
+| [web-extensions-and-advanced.md](./vscode-extension/web-extensions-and-advanced.md) | Web extensions and advanced topics | [VS Code](https://code.visualstudio.com/api) |
+| [webview-api.md](./vscode-extension/webview-api.md) | Webview API | [VS Code](https://code.visualstudio.com/api) |
+| [workspace-and-filesystem.md](./vscode-extension/workspace-and-filesystem.md) | Workspace and filesystem | [VS Code](https://code.visualstudio.com/api) |

@@ -46,6 +46,7 @@ Resources not tied to a specific domain.
 | [rules/](./rules/) | Coding rules and conventions |
 | [showcase/](./showcase/) | Configuration examples |
 | [skills/](./skills/) | Agent skill definitions and archives |
+| [tools/](./tools/) | CLI tools and utilities for AI agents |
 | [cheatsheets/](./cheatsheets/) | Quick references and cheat sheets |
 
 ## Roles

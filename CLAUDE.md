@@ -36,6 +36,7 @@ Resources are organized by domain. Each domain shares the same sub-category layo
 - `rules/` - Coding rules and conventions
 - `showcase/` - Configuration examples
 - `skills/` - Agent skill definitions and archives
+- `tools/` - CLI tools and utilities for AI agents
 
 ## Conventions
 

@@ -38,10 +38,10 @@ https://github.com/vercel-labs/agent-skills.git
 | # | Skill | Domain | Rules | Impact |
 |---|-------|--------|-------|--------|
 | 1 | [react-best-practices](./vercel-react-best-practices.md) | Frontend (React/Next.js) | 57 rules, 8 categories | Waterfalls, bundle size, re-renders |
-| 2 | [react-native-skills](../../app/skills/vercel-react-native-skills.md) | App (React Native/Expo) | 35+ rules, 13 categories | Rendering, lists, animation, state |
+| 2 | [react-native-skills](../app/vercel-react-native-skills.md) | App (React Native/Expo) | 35+ rules, 13 categories | Rendering, lists, animation, state |
 | 3 | [composition-patterns](./vercel-composition-patterns.md) | Frontend (React) | 8 patterns, 4 categories | Component architecture, scalability |
 | 4 | [web-design-guidelines](./vercel-web-design-guidelines.md) | Frontend (UI/UX) | 100+ rules, 16 categories | Accessibility, performance, UX |
-| 5 | [vercel-deploy-claimable](../../devops/skills/vercel-deploy-claimable.md) | DevOps | Deploy script | Instant deploy, 50+ frameworks |
+| 5 | [vercel-deploy-claimable](../devops/vercel-deploy-claimable.md) | DevOps | Deploy script | Instant deploy, 50+ frameworks |
 
 ### 1. react-best-practices
 

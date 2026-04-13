@@ -20,7 +20,7 @@ Read external content (URLs, PDFs, documents) and archive it as a well-structure
 ### 1. Check for Duplicates
 
 Before fetching, check if the URL is already archived:
-- `Grep` for the URL (or its domain + path) across `.md` files in the archive directories only (e.g., `guides/`, `rules/`, `mcp/`, `showcase/`, `skills/`, `frontend/`, `backend/`, `app/`, `devops/`, `data/`, `vscode-extension/`, `role/`). Exclude workspace, `.claude/`, and test directories.
+- `Grep` for the URL (or its domain + path) across `.md` files in the archive directories only (e.g., `guides/`, `rules/`, `mcp/`, `showcase/`, `skills/`, `tools/`, `plugins/`, `cheatsheets/`, `role/`). Exclude workspace, `.claude/`, and test directories.
 - If a match is found, tell the user and ask whether to update the existing file or skip
 
 ### 2. Fetch and Read Content
@@ -38,11 +38,11 @@ Before fetching, check if the URL is already archived:
 Read `references/repo-structure.md` to understand the repository layout.
 
 **Decision logic:**
-1. Identify the content type (guide, rule, MCP doc, showcase, skill)
-2. Identify the domain (frontend, backend, app, devops, data, vscode-extension, or cross-domain)
-3. If cross-domain → use root-level directory (`guides/`, `mcp/`, `rules/`, `showcase/`)
-4. If domain-specific → use `<domain>/<category>/`
-5. If no fitting domain exists and the content clearly warrants one → create a new domain directory with the standard sub-category layout and a README.md
+1. Identify the content type (guide, rule, MCP doc, showcase, skill, tool)
+2. Place in the matching category directory (`guides/`, `rules/`, `mcp/`, `skills/`, `tools/`, etc.)
+3. Identify the domain (frontend, app, vscode-extension, devops, or cross-domain)
+4. If cross-domain → place directly in the category root (e.g., `guides/my-guide.md`)
+5. If domain-specific → place in `<category>/<domain>/` (e.g., `guides/frontend/my-guide.md`)
 
 **Category mapping:**
 - Technical how-to, best practices, research → `guides/`

@@ -21,6 +21,7 @@ How-to guides and best practices for AI coding agents.
 | [anatomy-of-claude-folder.md](./anatomy-of-claude-folder.md) | Anatomy of the .claude/ folder: rules, commands, skills, agents, and permissions | [Avi Chawla](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder) |
 | [productive-with-claude-code.md](./productive-with-claude-code.md) | Productivity with Claude Code: constraint theory, parallel worktrees, and agent management | [Neil Kakkar](https://neilkakkar.com/productive-with-claude-code.html) |
 | [harness-design-long-running-apps.md](./harness-design-long-running-apps.md) | GAN-inspired multi-agent harness for long-running coding and design tasks | [Anthropic](https://www.anthropic.com/engineering/harness-design-long-running-apps) |
+| [obsidian-vault-organization.md](./obsidian-vault-organization.md) | Steph Ango's Obsidian vault system: file-over-app, flat folders, categories, fractal journaling | [Steph Ango](https://stephango.com/vault) |
 
 ## Frontend
 

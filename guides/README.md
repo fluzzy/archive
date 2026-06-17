@@ -22,6 +22,7 @@ How-to guides and best practices for AI coding agents.
 | [productive-with-claude-code.md](./productive-with-claude-code.md) | Productivity with Claude Code: constraint theory, parallel worktrees, and agent management | [Neil Kakkar](https://neilkakkar.com/productive-with-claude-code.html) |
 | [harness-design-long-running-apps.md](./harness-design-long-running-apps.md) | GAN-inspired multi-agent harness for long-running coding and design tasks | [Anthropic](https://www.anthropic.com/engineering/harness-design-long-running-apps) |
 | [obsidian-vault-organization.md](./obsidian-vault-organization.md) | Steph Ango's Obsidian vault system: file-over-app, flat folders, categories, fractal journaling | [Steph Ango](https://stephango.com/vault) |
+| [claude-code-lead-designer-workflows.md](./claude-code-lead-designer-workflows.md) | How Claude Code's lead designer builds with AI: worktrees, auto mode, prototype skill, automated PR merging, scheduled design-review routines | [Dive Club](https://www.youtube.com/watch?v=hKeDfupbA4U) |
 
 ## Frontend
 

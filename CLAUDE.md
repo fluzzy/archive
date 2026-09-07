@@ -40,9 +40,11 @@ Resources are organized by **category**. Domain-specific resources go in subdire
 
 ## Conventions
 
-- All content is written in English
-- Every directory has a `README.md` index listing its contents
+- All content is written in English, unless the source is Korean and its original phrasing is the substance (see `guides/code-reading-era.md`)
+- Every **category** directory has a `README.md` index; domain and project subdirectories do not — their files are indexed by the parent category README
 - New roles use `role/_template.md` as a starting point
 - Cross-domain resources go directly under the category directory (e.g., `guides/my-guide.md`)
 - Domain-specific resources go under `<category>/<domain>/` (e.g., `guides/frontend/my-guide.md`)
+- `skills/` and `plugins/` also use project subdirectories for named projects (e.g., `plugins/claude-ads/…`); `tools/` and `cheatsheets/` are flat
+- The category list is not fixed — add a new top-level category when content has no natural home
 - Each source document (official docs, Context7, etc.) gets its own separate md file — never merge multiple sources into one

@@ -8,87 +8,114 @@ argument-hint: "[url-or-path]"
 
 Read external content (URLs, PDFs, documents) and archive it as a well-structured markdown file in the appropriate location within this repository.
 
+The point of this repo is that a future reader finds the archived summary instead of chasing a link that may be dead or paywalled. That is why the two things that can't slip are **fidelity** (the summary stands in for the original) and **discoverability** (an unindexed file is effectively lost).
+
 ## Critical
 
-- Each source document gets its own separate md file — NEVER merge multiple sources into one
-- File names MUST be kebab-case: `descriptive-topic-name.md`
-- ALWAYS update the relevant `README.md` index after creating the file
-- All content MUST be written in English
+- Each source document gets its own separate md file — never merge multiple sources into one
+- File names are kebab-case: `descriptive-topic-name.md`
+- Always update the category `README.md` index after creating the file
+- Write in English. One exception: a Korean-language source may stay in Korean when the original phrasing is the substance (see `guides/code-reading-era.md`); its README description is then Korean too
 
 ## Steps
 
 ### 1. Check for Duplicates
 
-Before fetching, check if the URL is already archived:
-- `Grep` for the URL (or its domain + path) across `.md` files in the archive directories only (e.g., `guides/`, `rules/`, `mcp/`, `showcase/`, `skills/`, `tools/`, `plugins/`, `cheatsheets/`, `role/`). Exclude workspace, `.claude/`, and test directories.
-- If a match is found, tell the user and ask whether to update the existing file or skip
+Before fetching, check whether this source is already archived:
+
+- **URLs**: `Grep` for the URL (or its domain + distinctive path segment) across `.md` files in the archive directories only — `guides/`, `rules/`, `mcp/`, `showcase/`, `skills/`, `tools/`, `plugins/`, `cheatsheets/`, `role/`. Exclude workspace, `.claude/`, and test directories.
+- **PDFs and local files**: there's no URL to match on, so grep the document title and skim the target category's `README.md` instead.
+
+If a match is found, tell the user and ask whether to update the existing file or skip.
 
 ### 2. Fetch and Read Content
 
-- For URLs: use `WebFetch` to retrieve the content
-- For GitHub repo URLs: fetch the repo's README (append `/raw/refs/heads/main/README.md` or use the raw content URL). Also check for a description on the repo page itself.
-- For PDFs: use `Read` with the file path. For large PDFs (10+ pages), read in chunks using the `pages` parameter (e.g., `pages: "1-20"`). Max 20 pages per request.
-- For local files: use `Read` directly
-- Extract all key points, structure, examples, and recommendations
+- **URLs**: use `WebFetch`
+- **GitHub repos**: fetch the raw README at `<repo-url>/raw/refs/heads/main/README.md`. If that 404s, the default branch is probably `master` — retry with it before giving up. Also check the repo page itself for the description and topics.
+- **PDFs**: use `Read` with the file path. For 10+ pages, read in chunks with the `pages` parameter (e.g., `pages: "1-20"`). Max 20 pages per request.
+- **Local files**: use `Read` directly
 
-**If WebFetch fails** (403, 404, timeout, paywall): stop and tell the user the fetch failed, including the HTTP status. Ask them to paste the content directly or provide an alternative URL. Do not silently fall back to a different URL or guess the content — the user should decide what to archive.
+Extract all key points, structure, examples, and recommendations.
+
+**If fetching genuinely fails** (403, paywall, timeout, or 404 on every branch you tried): stop and tell the user, including the HTTP status, and ask them to paste the content or supply an alternative URL. Reaching the *same* document by another path — a `master` branch, a raw URL, a print view — is fine. Substituting a *different* document, or reconstructing content from memory, is not: the archive would then hold something the user never asked to preserve, and nothing downstream would reveal it.
 
 ### 3. Determine Target Location
 
-Read `references/repo-structure.md` to understand the repository layout.
+Read `references/repo-structure.md` for the layout.
 
-**Decision logic:**
-1. Identify the content type (guide, rule, MCP doc, showcase, skill, tool)
-2. Place in the matching category directory (`guides/`, `rules/`, `mcp/`, `skills/`, `tools/`, etc.)
-3. Identify the domain (frontend, app, vscode-extension, devops, or cross-domain)
-4. If cross-domain → place directly in the category root (e.g., `guides/my-guide.md`)
-5. If domain-specific → place in `<category>/<domain>/` (e.g., `guides/frontend/my-guide.md`)
+**Category** — what kind of thing is it? This map describes what the repo holds today, not a fixed schema:
 
-**Category mapping:**
-- Technical how-to, best practices, research → `guides/`
-- Coding conventions, rules, standards → `rules/`
-- MCP server documentation → `mcp/`
-- Configuration examples, reference implementations, workflow systems → `showcase/`
-- Agent skill definitions → `skills/`
+| Content | Category |
+| --- | --- |
+| Technical how-to, best practices, research, essays, interviews | `guides/` |
+| Coding conventions, rules, standards | `rules/` |
+| MCP server documentation | `mcp/` |
+| Configuration examples, reference implementations, workflow systems | `showcase/` |
+| Agent skill definitions and skill collections | `skills/` |
+| CLI tools and utilities for AI agents | `tools/` |
+| Third-party Claude Code plugin archives | `plugins/` |
+| Quick references, cheat sheets | `cheatsheets/` |
 
-**If content does not fit any existing category**, create a new one. Examples:
-- Interview/essay/opinion pieces → `essays/`
-- Cheatsheets, quick references → `cheatsheets/`
-- Tool comparisons, benchmarks → `benchmarks/`
+`role/` holds hand-written role prompts, not archived sources — never place fetched content there.
 
-When creating a new category: create the directory, add a `README.md` index, and update the root `README.md` to list it.
+**Subdirectory** — three shapes; pick the one the category already uses:
+
+1. **Cross-domain** content in a domain-organized category → category root: `guides/my-guide.md`
+2. **Domain-specific** content (`frontend`, `app`, `vscode-extension`, `devops`) → `<category>/<domain>/`: `guides/frontend/my-guide.md`
+3. **A named project** archived under `skills/` or `plugins/` → `<category>/<project-name>/`: `plugins/claude-ads/claude-ads-paid-advertising-audit.md`, `skills/gstack/gstack-claude-code-workflow.md`. Use this when the source is one identifiable project rather than a general topic; a skill doc that's really about a domain still uses shape 2 (`skills/frontend/...`).
+
+`tools/` and `cheatsheets/` are flat — no subdirectories.
+
+**The existing categories aren't binding.** They accumulated as content arrived rather than from a plan, so treat them as the current state of the archive, not as a set of bins everything must fit into. If a document has no natural home, make one — a folder stuffed with things that only half-belong hides them more effectively than an extra folder ever would.
+
+A new category earns its place when you can name what it holds more precisely than any existing folder does, and you'd expect it to hold more than this one document. `benchmarks/` for tool comparisons, `papers/` for research, `talks/` for conference sessions all qualify. `misc/`, or a folder named after this single file, doesn't — that's a file with extra steps.
+
+Creating a category can also mean **moving files that are already filed elsewhere**. That's normal, not a reason to avoid the new folder: the cost to avoid is the same kind of content sitting in two places, since then neither folder answers the question. `guides/` currently holds essays and interviews, so an `essays/` folder means relocating those and fixing their README rows too. When a move touches more than a file or two, tell the user what you're relocating rather than reshuffling the archive silently.
+
+When creating a category: make the directory, add a `README.md` with a flat table (add domain sections later if it grows subdirectories), and add a row to the root `README.md` Categories table.
 
 ### 4. Create the Archive File
 
 Follow the format in `references/archive-format.md`.
 
-**Date fields**: Always include both `Fetched` (date content was retrieved from the source) and `Archived` (date committed to this repo). For same-session archiving, both are today's date.
+**Date fields**: include both `Fetched` (when the content was retrieved from the source) and `Archived` (when it was committed here). For same-session archiving, both are today's date.
 
 **File naming**: derive from the content title or topic, kebab-case, descriptive.
 - Good: `agents-md-stop-using-init.md`, `react-server-components-guide.md`
 - Bad: `blog-post.md`, `article1.md`, `temp.md`
 
-### 5. Update README Index
+### 5. Update the Category README Index
 
-Find the `README.md` in the target directory and add an entry to the appropriate section.
+Every **category** has a `README.md`. Domain and project subdirectories do **not** — so the entry always goes in the category README (`guides/README.md`, `plugins/README.md`, …), and you never create a README inside a subdirectory.
 
-**Important**: Domain READMEs (e.g., `frontend/README.md`) are organized by sub-category sections (`## Skills`, `## Rules`, `## Guides`, `## Showcase`). Add the entry under the matching section header, not at the bottom of the file.
+Two table shapes:
 
-Root-level READMEs (e.g., `guides/README.md`) have a single flat table. Add the entry to that table.
+- **Categories with subdirectories** (`guides/`, `rules/`, `skills/`, `mcp/`, `showcase/`) have one table per domain section — `## General`, `## Frontend`, `## App`, `## DevOps`, `## VS Code Extension`. Add the row under the section matching where the file went; files at the category root go under `## General`. Create the section if it doesn't exist yet. Project-subdirectory files go under `## General` unless they're clearly domain-specific, and the link path includes the folder: `[gstack](./gstack/gstack-claude-code-workflow.md)`.
+- **Flat categories** (`tools/`, `plugins/`, `cheatsheets/`) have a single table — append there.
 
-Match the existing table format. Typical format:
+Match the **column layout** of the table you're editing: some are `File | Description | Source`, others only `File | Description`. Don't add a Source column where the table has none.
 
 ```markdown
 | [filename.md](./filename.md) | Description | [Source Name](url) |
 ```
 
-**Source Name**: Use the author or organization name, not the domain. Match the style of existing entries.
-- Good: `[Simon Willison](url)`, `[Anthropic](url)`, `[Toss Tech](url)`
-- Bad: `[simonwillison.net](url)`, `[www.anthropic.com](url)`
+**Source link text**: the author or organization, not the domain.
+- Good: `[Simon Willison](url)`, `[Anthropic](url)`, `[Vercel Labs](url)`, `[HKUDS](url)`
+- Bad: `[simonwillison.net](url)`, `[www.anthropic.com](url)`, a bare `[GitHub](url)`
 
-### 6. Commit Message
+Some older rows still use domains and `[GitHub]`. Those predate this rule — don't copy them.
 
-Follow the established pattern:
+### 6. Verify — before committing
+
+- The file is at the correct path with a kebab-case name
+- The README row is in the right section and matches that table's column layout
+- The content follows the archive format template
+
+Fix anything that's off in the working tree and re-check, so the commit stays one clean addition instead of an addition plus a fixup. Path, index, and format problems are all fixable from what's already on disk — only re-fetch the source if the *content* looks wrong (truncated fetch, mismatched title, missing sections), since that's the only failure the original page can settle.
+
+### 7. Commit
+
+Stage the new file and the updated README, then commit:
 
 ```
 docs: Archive <short title> (<author or source>)
@@ -98,14 +125,6 @@ Examples from this repo:
 - `docs: Archive Agentic Engineering Patterns guide (Simon Willison)`
 - `docs: Archive ClawTeam agent swarm intelligence framework (HKUDS)`
 
-### 7. Verify
-
-- Confirm the file was created at the correct path
-- Confirm the README index was updated (in the correct section for domain READMEs)
-- Confirm the content follows the archive format template
-
-If verification fails (wrong path, missing README entry, format issues), re-fetch the source content to check for discrepancies, fix the issues, verify again, then commit the fix before proceeding to push.
-
 ### 8. Push
 
-After verifying, push to the remote repository immediately. This is an archive repo where each commit is a standalone addition, so pushing right away is safe and expected.
+Push to the remote immediately. The usual caution about pushing without being asked exists because a push can disrupt others' work or ship something unreviewed — neither applies here. This is a personal archive where every commit is a standalone additive document with no build, no tests, and no reviewer, so an unpushed commit is just an archive that isn't backed up yet.

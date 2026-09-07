@@ -33,6 +33,7 @@ How-to guides and best practices for AI coding agents.
 | [floating-webview-popup-decoupling.md](./frontend/floating-webview-popup-decoupling.md) | Floating webview popup decoupling | - |
 | [toss-frontend-fundamentals-mock-exam-2-review.md](./frontend/toss-frontend-fundamentals-mock-exam-2-review.md) | Toss frontend fundamentals mock exam review | [Toss](https://toss.tech) |
 | [ui-design-tips.md](./frontend/ui-design-tips.md) | 16 UI design tips: spacing, visual hierarchy, WCAG contrast ratios, typography rules | [Adham Dannaway](https://www.adhamdannaway.com/blog/ui-design/ui-design-tips) |
+| [lovable-nextjs-to-tanstack-start-migration.md](./frontend/lovable-nextjs-to-tanstack-start-migration.md) | Migrating an 850K-line app from Next.js/Vercel to TanStack Start/Cloudflare Workers: dual-framework proxy, shared-code lint boundaries, agent-driven execution, 128MB isolate OOM | [Lovable](https://lovable.dev/blog/how-we-migrated-lovable-dev-away-from-nextjs) |
 
 ## App
 

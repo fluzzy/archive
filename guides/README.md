@@ -24,6 +24,7 @@ How-to guides and best practices for AI coding agents.
 | [obsidian-vault-organization.md](./obsidian-vault-organization.md) | Steph Ango's Obsidian vault system: file-over-app, flat folders, categories, fractal journaling | [Steph Ango](https://stephango.com/vault) |
 | [claude-code-lead-designer-workflows.md](./claude-code-lead-designer-workflows.md) | How Claude Code's lead designer builds with AI: worktrees, auto mode, prototype skill, automated PR merging, scheduled design-review routines | [Dive Club](https://www.youtube.com/watch?v=hKeDfupbA4U) |
 | [json-ld-personal-websites.md](./json-ld-personal-websites.md) | JSON-LD structured data for personal sites: schema.org node types (WebSite, Person, BlogPosting…) and copy-paste examples | [Ethan Hawksley](https://hawksley.dev/blog/json-ld-explained-for-personal-websites/) |
+| [ai-text-watermarking.md](./ai-text-watermarking.md) | How LLM text watermarking works: secret-key green/red word splits, SynthID tournament sampling, key-gated detection, and why paraphrase dilutes but rewriting erases | [James Padolsey](https://declaude.org/watermarking/) |
 
 ## Frontend
 
